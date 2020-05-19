@@ -1,2 +1,2 @@
-# corona-stuff
-Corona is also a Beer
+# Corona's a Beer too!
+
