@@ -10,8 +10,17 @@ import { IconsComponent } from "../../pages/icons/icons.component";
 import { MapComponent } from "../../pages/map/map.component";
 import { NotificationsComponent } from "../../pages/notifications/notifications.component";
 import { UserComponent } from "../../pages/user/user.component";
-
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
+import { ComponentsModule } from 'src/app/components/components.module';
+// import { LottieAnimationViewModule } from 'ng-lottie';
+import { LottieModule } from 'ngx-lottie';
+import player from 'lottie-web';
+
+// Note we need a separate function as it's required
+// by the AOT compiler.
+export function playerFactory() {
+  return player;
+}
 
 @NgModule({
   imports: [
@@ -20,6 +29,8 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
     FormsModule,
     HttpClientModule,
     NgbModule,
+    ComponentsModule,
+    LottieModule.forRoot({ player: playerFactory })
   ],
   declarations: [
     DashboardComponent,
