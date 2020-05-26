@@ -1,1 +1,1 @@
-# Covid Assassins
+# COVID Assassins
