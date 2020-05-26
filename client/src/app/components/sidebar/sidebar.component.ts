@@ -13,6 +13,12 @@ export const ROUTES: RouteInfo[] = [
     icon: "icon-chart-pie-36",
     class: ""
   },
+  {
+    path: "/user",
+    title: "User",
+    icon: "icon-chart-pie-36",
+    class: ""
+  },
 ];
 
 @Component({
