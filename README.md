@@ -1,2 +1,1 @@
-# Corona's a Beer too!
-
+# Covid Assassins
