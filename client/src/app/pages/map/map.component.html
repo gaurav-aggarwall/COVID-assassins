@@ -12,14 +12,16 @@
             <div class="col-md-8 offset-md-2">
               <ng-lottie widht="200px" height="350px" [options]="options"></ng-lottie>
               <div class=" form-group"><label> Ask your COVID queries</label>
-                <textarea class=" form-control" cols="130" rows="2" value="">
+                <textarea class=" form-control" rows="2" value="">
               </textarea>
               </div>
             </div>
           </div>
         </div>
         <div class="card-footer text-center">
-          <button class="btn btn-warning">Get Answers</button>
+          <button class="btn btn-warning" (click)="
+          showNotification('bottom', 'center')
+        ">Get Answers</button>
         </div>
       </div>
     </div>
