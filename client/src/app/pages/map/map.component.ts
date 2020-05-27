@@ -44,7 +44,7 @@ export class MapComponent implements OnInit {
           toastClass: "alert alert-info alert-with-icon",
           positionClass: 'toast-' + from + '-' + align
         });
-        break;s
+        break;
       case 2:
         this.toastr.success('<span class="tim-icons icon-bell-55" [data-notify]="icon"></span> Not a <b>Real</b> Answer.', '', {
           disableTimeOut: true,
