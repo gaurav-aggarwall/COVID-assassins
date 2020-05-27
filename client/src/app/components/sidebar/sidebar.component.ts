@@ -15,8 +15,14 @@ export const ROUTES: RouteInfo[] = [
   },
   {
     path: "/detection",
-    title: "Detection",
-    icon: "icon-chart-pie-36",
+    title: "Dr. Lungs",
+    icon: "icon-volume-98",
+    class: ""
+  },
+  {
+    path: "/bot",
+    title: "Bot M.D.",
+    icon: "icon-single-02",
     class: ""
   },
 ];

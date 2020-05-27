@@ -9,6 +9,8 @@ import { UserComponent } from "../../pages/user/user.component";
 export const AdminLayoutRoutes: Routes = [
   { path: "dashboard", component: DashboardComponent },
   { path: "detection", component: UserComponent },
+  { path: "bot", component: MapComponent },
+
   // { path: "icons", component: IconsComponent },
   // { path: "maps", component: MapComponent },
   // { path: "notifications", component: NotificationsComponent },

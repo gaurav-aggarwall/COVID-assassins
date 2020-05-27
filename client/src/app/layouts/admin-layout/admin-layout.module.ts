@@ -12,7 +12,7 @@ import { NotificationsComponent } from "../../pages/notifications/notifications.
 import { UserComponent } from "../../pages/user/user.component";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { ComponentsModule } from 'src/app/components/components.module';
-// import { LottieAnimationViewModule } from 'ng-lottie';
+import { AngularFileUploaderModule } from "angular-file-uploader";
 import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
 
@@ -30,7 +30,8 @@ export function playerFactory() {
     HttpClientModule,
     NgbModule,
     ComponentsModule,
-    LottieModule.forRoot({ player: playerFactory })
+    LottieModule.forRoot({ player: playerFactory }),
+    AngularFileUploaderModule
   ],
   declarations: [
     DashboardComponent,
